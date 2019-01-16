@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
+mkdir reproduce
+cd reproduce
 git clone https://github.com/guysoft/kivy-external-storage-permission.git
+git clone https://github.com/guysoft/python-for-android.git
 cd kivy-external-storage-permission
 sudo docker-compose up -d 
 sudo docker exec -it -u 0 buildozer-test pip3 install https://github.com/kivy/buildozer/archive/master.zip

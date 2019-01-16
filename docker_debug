@@ -1,0 +1,4 @@
+#sudo docker exec -it buildozer-test  /home/buildozer/.buildozer/android/platform/android-sdk-20/platform-tools/adb logcat python:I *:s
+sudo docker exec -it buildozer-test  /root/.buildozer/android/platform/android-sdk-21/platform-tools/adb logcat python:I *:s
+
+

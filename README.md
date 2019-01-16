@@ -5,7 +5,7 @@ Requirements:
 
 * Docker
 * tested on Ubuntu
-* Adnroid device connected to push the created apk
+* Android device connected to push the created apk
 * Time, the initial build can take a while
 
 Run:
